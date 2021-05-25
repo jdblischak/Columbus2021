@@ -1,0 +1,3 @@
+[submodule "themes/hugo-satrdays-theme"]
+	path = themes/hugo-satrdays-theme
+	url = https://github.com/satRdays/hugo-satrdays-theme
