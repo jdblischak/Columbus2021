@@ -1,5 +1,6 @@
 # Site settings
-baseurl = "https://columbus2021.satrdays.com"
+baseurl = "."
+#baseurl = "https://columbus2021.satrdays.com"
 languageCode = "en-us"
 title = "satRday Columbus 2021"
 theme = ["hugo-satrdays-theme"]
