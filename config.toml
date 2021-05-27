@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://eventtemplate.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://columbus2021.satrdays.com"
 languageCode = "en-us"
-title = "satRday"
+title = "satRday Columbus 2021"
 theme = ["hugo-satrdays-theme"]
 
 # Enter your tracking code to enable Google Analytics
@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Columbus"
+  description = "R conference in Columbus"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -80,8 +80,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Columbus"
+    subtitle = "A conference for users of the R Language on October 2, 2021"
     bg = true
     buttonText = "Tell me more"
 
@@ -97,7 +97,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      description = "October 2, 2021 on Zoom"
       url = "#"
 
     [[params.services.row.list]]
@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
+      description = "Free!"
       url = "#"
 
     [[params.services.row.list]]
@@ -407,7 +407,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.social]]
       icon = "fa-github"
-      link = "https://github.com/satRdays"
+      link = "https://github.com/satRdays/Columbus2021"
       title = "GitHub"
 
     [[params.footer.quicklinks]]
