@@ -102,9 +102,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      icon = "fa-microphone"
+      title = "Local speakers"
+      description = "R users from across Ohio"
       url = "#"
 
     [[params.services.row.list]]
@@ -361,7 +361,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrday.columbus@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
