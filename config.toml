@@ -134,7 +134,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -142,7 +142,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -162,7 +162,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/test3490"
@@ -171,7 +171,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Hackathon section
   [params.hackathon]
-    enable = true
+    enable = false
     bg = false
     title = "Hackathon"
     subtitle="Can you _Hack_ it?"
@@ -185,7 +185,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -202,13 +202,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
   # Important Dates [About] section
   [params.about]
-    enable = true
+    enable = false
     title = "Important Dates"
     subtitle = "Be prepared!"
     endpoint = "Conference"
@@ -242,14 +242,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Location section
   [params.location]
-    enable = true
+    enable = false
     title = "Location title"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Team"
@@ -304,7 +304,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
