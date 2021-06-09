@@ -249,57 +249,83 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Team"
     subtitle = "The people putting it together"
     bg = false
     description = ""
-    speakers = "Speakers"
+    speakers = "" # "Speakers"
     
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      img = "abbas-rizvi.png"
+      name = "Abbas Rizvi"
+      position = "Data Scientist at Tempus Labs"
+      bio = "Columbus, OH"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/aarizvi"],
+        ["fa-github", "https://github.com/aarizvi"],
+        ["fa-linkedin", "https://www.linkedin.com/in/aarizv"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      img = "bernie-lawson.jpg"
+      name = "Bernie Lawson"
+      position = "Data Scientist in Retail"
+      bio = "Cincinnati, OH"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/woodyblawson"],
+        ["fa-github", "https://github.com/lawsonbh"],
+        ["fa-linkedin", "https://www.linkedin.com/in/bernardlawson"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      img = "ezgi-karaesmen.jpg"
+      name = "Ezgi Karaesmen"
+      position = "Genomics at Nationwide Children's Hospital"
+      bio = "Columbus, OH"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/e_Karaesmen"],
+        ["fa-github", "https://github.com/karaesmen"],
+        ["fa-linkedin", "https://www.linkedin.com/in/ezgi-karaesmen/"]
+      ]
+
+    [[params.team.members]]
+      img = "john-blischak.jpg"
+      name = "John Blischak"
+      position = "Freelance Scientific Software Developer"
+      bio = "Copley, OH"
+      social = [
+        ["fa-twitter", "https://twitter.com/jdblischak"],
+        ["fa-github", "https://github.com/jdblischak"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jdblischak"]
+      ]
+
+    [[params.team.members]]
+      img = "katie-sasso-schafer.jpg"
+      name = "Katie Sasso Schafer"
+      position = "Director of AI and Automation at Covail"
+      bio = "Columbus, OH"
+      social = [
+        ["fa-twitter", "https://twitter.com/KatieSasso"],
+        ["fa-github", "https://github.com/ksasso"],
+        ["fa-linkedin", "https://www.linkedin.com/in/katiesasso"]
+      ]
+
+    [[params.team.members]]
+      img = "trevin-flickinger.jpg"
+      name = "Trevin Flickinger"
+      position = "Data Insights Analyst at Grange Insurance"
+      bio = "Columbus, OH"
+      social = [
+        ["fa-twitter", "https://twitter.com/trevin_flick"],
+        ["fa-github", "https://github.com/trevinflick"],
+        ["fa-linkedin", "https://www.linkedin.com/in/trevin-flickinger-b9400226/"]
       ]
 
   # Client section
