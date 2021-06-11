@@ -429,6 +429,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       link = "https://github.com/satRdays/Columbus2021"
       title = "GitHub"
 
+    [[params.footer.social]]
+      icon = "fa-youtube"
+      link = "https://www.youtube.com/channel/UCmilHBsXQ0bLB8LeVLAce8Q"
+      title = "YouTube"
+
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
       link = "#"
