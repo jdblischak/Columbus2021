@@ -330,7 +330,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Client section
   [params.clients_list]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -341,13 +341,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "jumpingrivers.png"
-      link = "https://www.jumpingrivers.com/"
+      logo = "tcc-logo.png"
+      link = "http://techcc.org/"
 
 #    [[params.clients]]
-#      logo = "designmodo.jpg"
-#      link = "#"
-  
+#      logo = "jumpingrivers.png"
+#      link = "https://www.jumpingrivers.com/"
+
   [params.diversity]
     enable = true
     title = "Diversity"
