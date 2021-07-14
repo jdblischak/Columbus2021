@@ -24,7 +24,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "satRday Columbus 2021"
   description = "A virtual R conference featuring useRs across Ohio on October 2, 2021!"
   # email = "your@email.com"
-  images = ["img/social_media_img.png"]
+  # Hacky to have to use the absolute URL, but the relative one didn't work
+  images = ["https://columbus2021.satrdays.org/img/social_media_img.png"]
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
