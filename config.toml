@@ -21,9 +21,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday Columbus"
-  description = "R conference in Columbus"
+  name = "satRday Columbus 2021"
+  description = "A virtual R conference featuring useRs across Ohio on October 2, 2021!"
   # email = "your@email.com"
+  images = ["img/social_media_img.png"]
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
