@@ -348,9 +348,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       logo = "tcc-logo.png"
       link = "http://techcc.org/"
 
-#    [[params.clients]]
-#      logo = "jumpingrivers.png"
-#      link = "https://www.jumpingrivers.com/"
+   [[params.clients]]
+     logo = "jumpingrivers.png"
+     link = "https://www.jumpingrivers.com/"
 
   [params.diversity]
     enable = true
