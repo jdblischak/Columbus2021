@@ -53,6 +53,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.keynote.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#keynote">Keynote</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.portfolio.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
