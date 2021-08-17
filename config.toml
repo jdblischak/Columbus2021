@@ -356,6 +356,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
      logo = "jumpingrivers.png"
      link = "https://www.jumpingrivers.com/"
 
+   [[params.clients]]
+     logo = "aware.png"
+     link = "https://www.awarehq.com/"
+
   [params.diversity]
     enable = true
     title = "Diversity"
