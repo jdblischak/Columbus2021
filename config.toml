@@ -164,7 +164,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     # Note from John: All of the below is ignored. Instead edit
     # layouts/partials/callforpapers.html directly.
     title = "Call For Papers"
