@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 3
+title = "Scalable Shapley explanations with the fastshap package"
+subtitle = "Brandon Greenwell"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "I would like to present a brief overview of Shapley explanations in R, and the contributions the fastshap package brings to the table; in particular, faster and more scalable feature Shapley values for general machine learning models in R."
+talk = true
+
+[speaker]
+name = "Brandon Greenwell"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  
+  ["fa-github", "https://github.com/bgreenwell"],
+  
+]
+link = "#"

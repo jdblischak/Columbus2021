@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 7
+title = "Survey, Linguistics, Analysis kNowledge Guide: SLANG, a tool for multi-faceted text analysis in R"
+subtitle = "Julia Haines"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "I have built an R Shiny App that enables the user to upload a text file of any format (CSV, PDF, TXT) and do some preliminary text analysis. The tool generates not only a table of unigrams and bigrams, indicating the phrases and words which show up with the most frequency, but also allows the user to conduct topic modeling and sentiment analysis. Sentiment Analysis is conducted based on a lexicon dictionary chosen by the user, and topic modeling is conducted based on topic definitions provided by the user. This tool can then output an HTML document that users can use without having R on their machine."
+talk = true
+
+[speaker]
+name = "Julia Haines"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  
+  
+  ["fa-linkedin", "https://www.linkedin.com/in/julia-haines-593896b8/"],
+]
+link = "#"

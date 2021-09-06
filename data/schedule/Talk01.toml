@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 1
+title = "You’re a Parselmouth, Harry! Speaking python inside of R workflows"
+subtitle = "Alec Wong"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "Sometimes you need to speak snake. Becoming proficient in both Python and R has become a necessary skill in today's data analytical landscape, to maximize productivity among communities of analysts working in either or both platforms, and to take full advantage of the unique capabilities each language offers. Rstudio has written a package for the R language that unifies operation of both languages within the R session: {reticulate}. I will demonstrate an ETL procedure used in my daily work that uses python functions sourced from a package of my own design to extract data from a Microsoft OLAP cube, and embeds these functions into an R script, seamlessly integrating into a {dplyr} pipe chain. From this demonstration, R users will learn a) the basics of calling python from within R, b) how to structure the python functions to work with {dplyr} verbs, and c) common strategies for maintaining reproducibility when using both languages."
+talk = true
+
+[speaker]
+name = "Alec Wong"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  ["fa-twitter", "https://twitter.com/Awong234"],
+  ["fa-github", "https://github.com/awong234"],
+  ["fa-linkedin", "https://www.linkedin.com/in/alec-wong-67966242/"],
+]
+link = "#"

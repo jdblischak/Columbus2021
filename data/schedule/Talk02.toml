@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 2
+title = "Geocoding European Soccer Stadiums"
+subtitle = "Andres Rodriguez"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "Use R and Google Maps Geocoding API to be able to geocode the address of European Soccer stadiums.  "
+talk = true
+
+[speaker]
+name = "Andres Rodriguez"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  
+  
+  ["fa-linkedin", "https://www.linkedin.com/in/andres-rodriguez-b84779111/"],
+]
+link = "#"

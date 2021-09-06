@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 6
+title = "Intro to CatBoost, and its approach to categorical variables"
+subtitle = "Jay Cunningham"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "Tree-based models are top performers, but handling categorical variables can be a challenge. Several R packages do have support for factors, but they have different approaches and usually can't handle an unlimited number of categories. CatBoost has a sophisticated approach based on target encoding that performs well and overcomes such limitations. I'll briefly go over those other approaches, outline how CatBoost handles factors, and end with an example."
+talk = true
+
+[speaker]
+name = "Jay Cunningham"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  
+  ["fa-github", "https://github.com/cunningjames"],
+  ["fa-linkedin", "https://www.linkedin.com/in/jay-cunningham-60612886/"],
+]
+link = "#"

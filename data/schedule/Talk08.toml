@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 8
+title = "The Current State of NLP and Text-Based Machine Learning Modeling"
+subtitle = "Michael Kearney"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "My talk will provide a snapshot of the current tooling and package landscape for processing and analyzing natural language (text) data. Consideration will be given to open source packages in R and python, allowing for comparisons and a brief discussion of whether and how to import python modules in the R environment."
+talk = true
+
+[speaker]
+name = "Michael Kearney"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  ["fa-twitter", "https://twitter.com/kearneymw"],
+  ["fa-github", "https://github.com/mkearney"],
+  ["fa-linkedin", "https://www.linkedin.com/in/mikewk"],
+]
+link = "#"

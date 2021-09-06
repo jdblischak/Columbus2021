@@ -1,0 +1,25 @@
+[talk_details]
+modalID = 4
+title = "Using R to build models for National Football League projections"
+subtitle = "Eric Eager"
+date = 2021-10-02
+startsAt = "00:00:00"
+endsAt = "00:01:00"
+img = ""
+preview = "Rlogo.png"
+category = "Category 1"
+description = "At Pro Football Focus, a company based out of Cincinnati, OH, we supply data and analysis tools to all 32 National Football League teams and 100 NCAA football teams.  As a part of this partnership, we provide projections for players as they transfer from NCAA to NFL.  In this talk I'll discuss how I use modeling tools in R to simulate a player's set of future outcomes using a number of different data sources and user inputs.  "
+talk = true
+
+[speaker]
+name = "Eric Eager"
+organisation = ""
+role = ""
+img = ""
+bio = ""
+social = [
+  ["fa-twitter", "https://twitter.com/PFF_Eric"],
+  
+  ["fa-linkedin", "https://www.linkedin.com/in/eric-eager-31a2a220/"],
+]
+link = "#"
