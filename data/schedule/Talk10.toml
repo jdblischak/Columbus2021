@@ -1,24 +1,24 @@
 [talk_details]
 modalID = 10
-title = "How to get started with R: Tales from a former complete novice"
-subtitle = "Shane Arnett"
+title = "“FREE!” R/Plumber APIs for all!"
+subtitle = "Pete Gordon"
 date = 2021-10-02
 startsAt = "00:00:00"
 endsAt = "00:01:00"
 img = ""
 preview = "Rlogo.png"
 category = "Category 1"
-description = "I think there are a lot of folks out there who get involved with groups as a way to start building their expertise in R and analytics in general. I know when I started, I was completely lost and had no idea where to start; if it weren't for the larger analytics and R community, there's no way I would be as far along as I am now. My plan for the talk would consist of 4 main (brief) ideas: 1) a bit of my background (which had zero to do with programming) 2) How I got started and what I do currently as a senior digital analyst in insurance 3) a dump of great resources for folks that are just getting started 4) tips and tricks/things to keep in mind for the new R user or those curious about trying it out. Would likely also present a small side project I created as an inspiration for people to seek out projects that interest them in order to practice. "
+description = "Have you ever wanted to push your R code out so everyone can use it over the Internet with a simple API call, and you only pay when it is used an extreme amount—which is preferably never extreme—this is for you. Google Cloud Run is an excellent tool for this. Deploy your R/Plumber API in a Docker serverless environment with no worries and make your amazing Data Science available to everyone. Let’s do it together!"
 talk = true
 
 [speaker]
-name = "Shane Arnett"
+name = "Pete Gordon"
 organisation = ""
 role = ""
 img = ""
 bio = ""
 social = [
-  
+  ["fa-twitter", "https://twitter.com/petegordon"],
   
   
 ]
