@@ -32,6 +32,7 @@ x$linkedin <- ifelse(x$linkedin == "", x$linkedin,
 outdir <- "schedule"
 dir.create(outdir, showWarnings = FALSE)
 x$toml <- file.path(outdir, sprintf("Talk%02d.toml", seq_len(nrow(x))))
+x$headshot <- paste0(x$id, ".jpg")
 
 for (i in seq_len(nrow(x))) {
   print(x$name[i])
@@ -44,8 +45,8 @@ for (i in seq_len(nrow(x))) {
       "date = 2021-10-02",
       "startsAt = \"00:00:00\"",
       "endsAt = \"00:01:00\"",
-      "img = \"\"",
-      "preview = \"Rlogo.png\"",
+      sprintf("img = \"%s\"", x$headshot[i]),
+      sprintf("preview = \"%s\"", x$headshot[i]),
       "category = \"Category 1\"",
       sprintf("description = \"%s\"", x$description[i]),
       "talk = true",
@@ -54,7 +55,7 @@ for (i in seq_len(nrow(x))) {
       sprintf("name = \"%s\"", x$name[i]),
       "organisation = \"\"",
       "role = \"\"",
-      "img = \"\"",
+      sprintf("img = \"%s\"", x$headshot[i]),
       "bio = \"\"",
       "social = [",
       sprintf("  %s", x$twitter[i]),
