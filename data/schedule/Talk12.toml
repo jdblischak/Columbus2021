@@ -1,0 +1,23 @@
+[talk_details]
+modalID = 12
+title = "Building Virtual Communities: What I learned from SLICED"
+subtitle = "Nick Wan"
+date = 2021-10-02
+startsAt = "15:00"
+endsAt = "15:30"
+img = "nick-wan.jpg"
+preview = "nick-wan.jpg"
+category = "Category 1"
+description = "[Nick Wan](https://nickwan.medium.com/hello-from-nick-wan-f0c96556c3b7#.cfw9hbuly) is the Manager of Data Science at Kentucky Fried Chicken and co-host of the competitive data science game show [SLICED](https://www.twitch.tv/nickwan_datasci). He previously worked at the Cincinnati Reds as a Data Scientist. He streams Twitch where he broadcasts SLICED as well as data science projects using data from NFL, MLB, Pro Bullriding Association, Rocket League, Overwatch League, and NWHL. Nick Wan earned his PhD in psychology from Utah State University."
+talk = true
+
+[speaker]
+name = "Nick Wan"
+organisation = ""
+role = ""
+img = "nick-wan.jpg"
+bio = ""
+social = [
+  ["fa-twitter", "https://twitter.com/nickwan"],
+]
+link = "#"

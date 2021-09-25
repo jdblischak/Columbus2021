@@ -1,0 +1,7 @@
+[talk_details]
+title = "Lunch"
+date = 2021-10-02
+startsAt = "12:00"
+endsAt = "13:00"
+category = "Category 1"
+talk = false

@@ -1,0 +1,7 @@
+[talk_details]
+title = "Morning break"
+date = 2021-10-02
+startsAt = "10:30"
+endsAt = "11:00"
+category = "Category 1"
+talk = false
