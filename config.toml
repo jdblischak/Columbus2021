@@ -212,6 +212,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.schedule]
     enable = true
     title = "Schedule"
+    subtitle = "All times in US Eastern Time (aka America/New_York), currently UTC-4"
     bg = false
 
   # Important Dates [About] section
