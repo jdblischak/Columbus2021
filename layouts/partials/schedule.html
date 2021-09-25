@@ -17,7 +17,9 @@ class="bg-light-gray"
           <p>{{ .talk_details.endsAt }} </p>
         </div>
         <h4 class="ScheduleItem-title">{{ .talk_details.title | markdownify }}</h4>
-        <p> {{ partial "tweetthis.html" . }} </p>
+        {{ if .talk_details.talk }}
+          <p> {{ partial "tweetthis.html" . }} </p>
+        {{ end }}
       </div>
       {{ end }}
     </div>
